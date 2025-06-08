@@ -1,0 +1,31 @@
+# Go build artifacts
+/bin/
+/build/
+/out/
+/dist/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary
+*.test
+
+# Output of go coverage tool
+*.out
+
+# Dependency directories (go modules)
+/vendor/
+
+# IDE/editor files
+.idea/
+.vscode/
+*.swp
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Go workspace files
+go.sum

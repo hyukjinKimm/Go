@@ -4,6 +4,8 @@ import (
 	"fmt"
 	"log"
 	"src/keyboard"
+
+	"github.com/headfirstgo/greeting"
 )
 
 func main() {
@@ -19,4 +21,5 @@ func main() {
 		status = "failing"
 	}
 	fmt.Println("A grade of", grade, "is", status)
+	greeting.Hello()
 }
